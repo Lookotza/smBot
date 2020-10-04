@@ -52,4 +52,9 @@ client.on('message', message =>{
     }
 });
 
-client.login(process.env.BOT_TOKEN);
+const TOKEN = process.env.BOT_TOKEN || require('./token.json');
+client.login(TOKEN);
+
+
+
+client.login(TOKEN);
