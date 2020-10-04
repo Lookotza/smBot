@@ -53,6 +53,3 @@ client.on('message', message =>{
 });
 
 client.login(process.env.BOT_TOKEN);
-
-//kat3 NzMxODc4OTQ3MTkyODMyMDUx.XwsdYg.e_zbtN1i_yTzm8wAii_fjYwDjIs
-//kat  NzMxNTExNDI4MTI4ODMzNTc4.XwnI1w.gYzjGR3foKSp3-CT7_v_G-dyL5o
