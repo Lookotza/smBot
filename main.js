@@ -2,11 +2,16 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
+
+
+
 const app = require('express')();
 const server = require('http').createServer(app);
 app.get('/', (req, res) => res.send('Placeholder!'));
 server.listen(process.env.PORT || 3000);
 
+//setInterval(() => console.log('10 seconds have passed'), 10000);
+//setInterval(() => fetch('https://tiamat.thearchives.repl.co'), 600000);
 
 
 
@@ -33,8 +38,12 @@ client.once('ready', () => {
 
 
 
+
+
+
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.id === client.user.id) return;
+    
     
     
     const args = message.content.slice(prefix.length).split(/ +/);
