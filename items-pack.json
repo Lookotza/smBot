@@ -6259,12 +6259,14 @@
                 362
              ],
              "heaDmg":106,
+             "expResDmg":14,
              "range":[
                 3,
                 6
              ],
              "push":1,
              "retreat":1,
+             "uses":3,
              "backfire":180,
              "heaCost":75
           },
@@ -6528,7 +6530,7 @@
           "transform_range":"L-D"
        },
        {
-         "id":186,
+         "id":196,
          "name":"Lightning Cutter",
          "image":"%url%LightningCutter.png",
          "type":"SIDE_WEAPON",
@@ -6578,7 +6580,7 @@
          "transform_range":"L-D"
       },
       {
-         "id":197,
+         "id":198,
          "name":"Heat Fortress",
          "image":"%url%HeatFortress.png",
          "type":"MODULE",
@@ -6595,7 +6597,7 @@
          "transform_range":"L-D"
       },
       {
-         "id":197,
+         "id":199,
          "name":"Physical Fortress",
          "image":"%url%PhysicalFortress.png",
          "type":"MODULE",
@@ -6612,7 +6614,7 @@
          "transform_range":"L-D"
       },
       {
-         "id":189,
+         "id":200,
          "name":"Quad Core Booster",
          "image":"%url%QuadCoreBooster.png",
          "type":"MODULE",
@@ -6633,7 +6635,7 @@
          "transform_range":"L-D"
       },
       {
-         "id":189,
+         "id":201,
          "name":"Overload Preventor",
          "image":"%url%OverloadPreventor.png",
          "type":"MODULE",
@@ -6646,6 +6648,38 @@
          "divine":{
             "eneReg":88,
             "heaCol":88
+         },
+         "transform_range":"L-D"
+      },
+      {
+         "id":202,
+         "name":"Damaged Armor Annihilator",
+         "image":"%url%DamagedArmorAnnihilator.png",
+         "type":"SIDE_WEAPON",
+         "element":"PHYSICAL",
+         "stats":{
+            "weight":8,
+            "phyDmg":[
+               91,
+               146
+            ],
+            "phyResDmg":60,
+            "range":[
+               2,
+               4
+            ],
+            "uses":1,
+            "backfire":144
+         },
+         "divine":{
+            "phyDmg":[
+               96,
+               155
+            ]
+         },
+         "attachment":{
+            "x":65,
+            "y":42
          },
          "transform_range":"L-D"
       },
