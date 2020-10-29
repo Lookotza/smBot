@@ -174,7 +174,6 @@ message.react('🇩').then(r => {
         })
         .catch(error => {
           // Bot failed to send the message
-          message.delete();
           console.log('no reaction')
         });
 
