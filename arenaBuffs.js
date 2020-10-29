@@ -8,10 +8,7 @@ const templates = {
     key: 'health',
     name: 'Health',
     type: 'number',
-    buff: {
-      mode: 'add',
-      amount: 350
-    }
+    buff: null
   }, eneCap: {
     key: 'eneCap',
     name: 'Energy Capacity',
