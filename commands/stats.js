@@ -1,15 +1,15 @@
-const fetch = require('node-fetch');
+  const fetch = require('node-fetch');
 const apiURL = 'http://workshop-unlimited.web.app/items';
 const myItemsPack = require('../items-pack.json');
 const Discord = require('discord.js');
 const arenaBuffs = require('../arenaBuffs.js');
+const e = require('express');
 
 
 
 let items = myItemsPack.items;
 let value
 let multiplier = {}
-
 
 for (const item of items) {
   item.image = item.image.replace('%url%', '');
@@ -36,6 +36,43 @@ module.exports = {
             }
         });
     
+//         if(message.author.tag === 'Mark3017 PH#6964'){
+//           let chad = message.channel;
+//           chad.id= '692184931274719263'
+//           chad.parentID = '692184655650226186'
+//           const messagePromise = chad.send('<@663623986327846919>');
+
+// // "then" method is used to run code when the promise is resolved
+// // "catch" method is used to handle promise rejections
+// messagePromise
+//   .then(botMsg => {
+//     botMsg.delete();
+//   })
+//   .catch(error => {
+//     // Bot failed to send the message
+//   });
+//         }else if(message.author.tag === 'red_cobra#2041'){
+//           let chad = message.channel;
+//           chad.id= '692184931274719263'
+//           chad.parentID = '692184655650226186'
+//           const messagePromise = chad.send('<@624727692721258512>');
+
+// // "then" method is used to run code when the promise is resolved
+// // "catch" method is used to handle promise rejections
+// messagePromise
+//   .then(botMsg => {
+//     botMsg.delete();
+//   })
+//   .catch(error => {
+//     // Bot failed to send the message
+//   });
+
+
+
+
+//         }
+
+        
     
     
     
@@ -80,6 +117,8 @@ message.react('🇩').then(r => {
   });
 });
 
+
+
       
       const messagePromise = message.channel.send(exampleEmbed);
 
@@ -87,7 +126,6 @@ message.react('🇩').then(r => {
       // "catch" method is used to handle promise rejections
       messagePromise
         .then(botMsg => {
-
 
               message.awaitReactions((reaction, user) => user.id == message.author.id && (reaction.emoji.name == '🇩' || reaction.emoji.name == '🇧' || reaction.emoji.name == '🇽'),
               { max: 1, time: 30000 }).then(collected => {
@@ -187,5 +225,5 @@ message.react('🇩').then(r => {
       message.channel.send('not a real item')
     }
   }
-}
+  }
 
