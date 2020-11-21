@@ -58,6 +58,8 @@ client.on('message', message =>{
         client.commands.get('stats').execute(message, args);
     }else if(command === 'help'){
         client.commands.get('help').execute(message, args);
+    }else if(command === 'additem'){
+        client.commands.get('additem').execute(message, args);
     }
 });
 

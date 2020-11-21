@@ -6682,20 +6682,8 @@
             "y":42
          },
          "transform_range":"L-D"
-      },
-      
-      
+      }
       
 
-      
-   
-      {
-         "id":301 ,
-         "name":"doG",
-         "image":"%url%doG.jpg",
-         "stats":{
-            "chad": 9999
-         }
-      }
-    ]
- }
+]
+}
