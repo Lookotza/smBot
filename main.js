@@ -19,7 +19,6 @@ server.listen(process.env.PORT || 3000);
 const prefix = '`';
 
 const fs = require('fs');
-const channel = require('./commands/channel');
 
 client.commands = new Discord.Collection();
 
@@ -52,8 +51,6 @@ client.on('message', message =>{
 
    if(command === 'roll'){
         client.commands.get('roll').execute(message, args);
-    }else if(command === 'channel'){
-        client.commands.get('channel').execute(message, args);
     }else if(command === 'stats'){
         client.commands.get('stats').execute(message, args);
     }else if(command === 'help'){
