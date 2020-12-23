@@ -55,7 +55,7 @@ module.exports = {
           response += stat.name + ': `' + item.stats[statName] + '`\n';
         }
         }
-      
+        response += "Transform Range: `" + item.transform_range + "`"; 
       
         
         
@@ -116,6 +116,7 @@ message.react('🇩').then(r => {
                             response += stat.name + ': `' + value + '`\n';
                           }
                             }
+                          response += "Transform Range: `" + item.transform_range + "`"; 
                           
                           exampleEmbed.fields = []
                           exampleEmbed.addField(item.name, response) 
@@ -140,7 +141,7 @@ message.react('🇩').then(r => {
                             response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, item.stats[statName])) + '`\n';
                           }
                           } 
-
+                        response += "Transform Range: `" + item.transform_range + "`"; 
                         
                         exampleEmbed.fields = []
                         exampleEmbed.addField(item.name, response) 
@@ -168,7 +169,7 @@ message.react('🇩').then(r => {
                             response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, value)) + '`\n';
                           }
                             }
-
+                            response += "Transform Range: `" + item.transform_range + "`"; 
 
                         exampleEmbed.fields = []
                         exampleEmbed.addField(item.name, response) 
