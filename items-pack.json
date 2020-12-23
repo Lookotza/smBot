@@ -6530,156 +6530,332 @@
           "transform_range":"L-D"
        },
        {
-         "id":196,
-         "name":"Lightning Cutter",
-         "image":"%url%LightningCutter.png",
-         "type":"SIDE_WEAPON",
-         "element":"ELECTRIC",
-         "stats":{
-            "weight":49,
-            "eleDmg":[
-               181,
-               362
-            ],
-            "eneDmg":114,
-            "range":[
-               1,
-               2
-            ],
-            "backfire":144,
-            "heaCost":62
-         },
-         "divine":{
-            "eleDmg":[
-               191,
-               382
-            ],
-            "eneDmg":121
-         },
-         "attachment":{
-            "x":53,
-            "y":50
-         },
-         "transform_range":"E-D"
-      },
-      {
-         "id":197,
-         "name":"Energy Fortress",
-         "image":"%url%EnergyFortress.png",
-         "type":"MODULE",
-         "element":"ELECTRIC",
-         "stats":{
-            "weight":40,
-            "health":159,
-            "eleRes":64
-         },
-         "divine":{
-            "health":166,
-            "eleRes":69
-         },
-         "transform_range":"L-D"
-      },
-      {
-         "id":198,
-         "name":"Heat Fortress",
-         "image":"%url%HeatFortress.png",
-         "type":"MODULE",
-         "element":"EXPLOSIVE",
-         "stats":{
-            "weight":40,
-            "health":159,
-            "expRes":64
-         },
-         "divine":{
-            "health":166,
-            "expRes":69
-         },
-         "transform_range":"L-D"
-      },
-      {
-         "id":199,
-         "name":"Physical Fortress",
-         "image":"%url%PhysicalFortress.png",
-         "type":"MODULE",
-         "element":"PHYSICAL",
-         "stats":{
-            "weight":40,
-            "health":159,
-            "phyRes":64
-         },
-         "divine":{
-            "health":166,
-            "phyRes":69
-         },
-         "transform_range":"L-D"
-      },
-      {
-         "id":200,
-         "name":"Quad Core Booster",
-         "image":"%url%QuadCoreBooster.png",
-         "type":"MODULE",
-         "element":"COMBINED",
-         "stats":{
-            "weight":40,
-            "eneCap":97,
-            "eneReg":46,
-            "heaCap":89,
-            "heaCol":46
-         },
-         "divine":{
-            "eneCap":125,
-            "eneReg":59,
-            "heaCap":113,
-            "heaCol":59
-         },
-         "transform_range":"L-D"
-      },
-      {
-         "id":201,
-         "name":"Overload Preventor",
-         "image":"%url%OverloadPreventor.png",
-         "type":"MODULE",
-         "element":"COMBINED",
+         "id": 196,
+         "name": "Overload Preventor",
+         "image": "%url%OverloadPreventor.png",
+         "type": "MODULE",
+         "element": "COMBINED",
+         "transform_range": "L-D",
          "stats":{
             "weight":25,
-            "eneReg":73,
-            "heaCol":73
+            "heaCol":68,
+            "eneReg":68
          },
          "divine":{
-            "eneReg":88,
-            "heaCol":88
+            "heaCol":73,
+            "eneReg":73
+         }
+       },
+       {
+         "id": 197,
+         "name": "Quad Core Booster",
+         "image": "%url%QuadCoreBooster.png",
+         "type": "MODULE",
+         "element": "COMBINED",
+         "transform_range": "L-D",
+         "stats": {
+           "weight": 40,
+           "eneCap": 104,
+           "eneReg": 49,
+           "heaCap": 94,
+           "heaCol": 49
+         },
+         "divine":{
+            "eneCap": 104,
+            "eneReg": 49,
+            "heaCap": 94,
+            "heaCol": 49
+         }
+       },
+       {
+         "id": 198,
+         "name": "Electric Fortress",
+         "image": "%url%ElectricFortress.png",
+         "type": "MODULE",
+         "element": "ELECTRIC",
+         "transform_range": "L-D",
+         "stats": {
+           "weight": 40,
+           "eleRes": 64,
+           "health": 158
+         },
+         "divine": {
+            "eleRes": 69,
+            "health": 166
+       }
+      },
+      {
+         "id": 199,
+         "name": "Platinum Fortress",
+         "image": "%url%_ (2).png",
+         "type": "MODULE",
+         "element": "PHYSICAL",
+         "transform_range": "L-D",
+         "stats": {
+           "weight": 40,
+           "phyRes": 59,
+           "health": 158
+         },
+         "divine":{
+            "phyRes": 63,
+            "health": 166
+         }
+       },
+       {
+         "id": 200,
+         "name": "Plasma Fortress",
+         "image": "%url%PlasmaFortress.png",
+         "type": "MODULE",
+         "element": "EXPLOSIVE",
+         "transform_range": "L-D",
+         "stats": {
+           "weight": 40,
+           "expRes": 64,
+           "health": 158
+         },
+         "divine": {
+            "expRes": 69,
+            "health": 166
+         }
+       },
+       {
+         "id": 201,
+         "name": "Lightning Cutter",
+         "image": "%url%LightningCutter.png",
+         "type": "SIDE_WEAPON",
+         "element": "ELECTRIC",
+         "stats": {
+           "weight": 49,
+           "eleDmg": [
+             191,
+             382
+           ],
+           "eneDmg": 121,
+           "eleResDmg": 10,
+           "range": [
+             1,
+             2
+           ],
+           "advance": 1,
+           "backfire": 144,
+           "heaCost": 62
+         },
+         "attachment": {
+           "x": 53,
+           "y": 50
+         },
+         "transform_range": "L-D",
+         "tags": ["melee"]
+       },
+       {
+         "id": 202,
+         "name": "Damaged Armor Annihilator",
+         "image": "%url%DamagedArmorAnnihilator.png",
+         "type": "SIDE_WEAPON",
+         "element": "PHYSICAL",
+         "stats": {
+           "weight": 8,
+           "phyDmg": [
+             96,
+             155
+           ],
+           "phyResDmg": 60,
+           "range": [
+             2,
+             4
+           ],
+           "uses": 1,
+           "backfire": 180
+         },
+         "attachment": {
+           "x": 44,
+           "y": 41
+         },
+         "transform_range": "L-D"
+       },
+       {
+         "id": 203,
+         "name": "Overheated Heat Bomb",
+         "image": "%url%OverheatedHeatBomb.png",
+         "type": "TOP_WEAPON",
+         "element": "EXPLOSIVE",
+         "stats": {
+           "weight": 42,
+           "expDmg": [36, 66],
+           "heaDmg": 415,
+           "range": [3, 6],
+           "uses": 1,
+           "backfire": 180,
+           "heaCost": 415
+         },
+         "attachment": {
+           "x": 50,
+           "y": 89
+         },
+         "transform_range": "L-D"
+       },
+       {
+         "id": 204,
+         "name": "Hollow Cyber Armor",
+         "image": "%url%HollowCyberArmor.png",
+         "type":"TORSO",
+         "element":"PHYSICAL",
+         "stats":{
+            "weight":370,
+            "health":1589,
+            "eneCap":241,
+            "eneReg":80,
+            "heaCap":241,
+            "heaCol":80
+         },
+         "divine":{
+            "health":1678,
+            "eneCap":259,
+            "heaCap":259
+         },
+         "attachment":{
+            "leg1":{
+               "x":63,
+               "y":189
+            },
+            "leg2":{
+               "x":125,
+               "y":189
+            },
+            "side1":{
+               "x":60,
+               "y":148
+            },
+            "side2":{
+               "x":140,
+               "y":148
+            },
+            "side3":{
+               "x":54,
+               "y":80
+            },
+            "side4":{
+               "x":142,
+               "y":80
+            },
+            "top1":{
+               "x":53,
+               "y":24
+            },
+            "top2":{
+               "x":107,
+               "y":24
+            }
          },
          "transform_range":"L-D"
       },
-      {
-         "id":202,
-         "name":"Damaged Armor Annihilator",
-         "image":"%url%DamagedArmorAnnihilator.png",
-         "type":"SIDE_WEAPON",
-         "element":"PHYSICAL",
+       {
+         "id": 205,
+         "name": "Fractured Cyber Armor",
+         "image": "%url%FracturedCyberArmor.png",
+          "type":"TORSO",
+          "element":"EXPLOSIVE",
+          "stats":{
+             "weight":370,
+             "health":1664,
+             "eneCap":193,
+             "eneReg":64,
+             "heaCap":267,
+             "heaCol":96
+          },
+          "divine":{
+             "health":1786,
+             "eneCap":207,
+             "heaCap":282
+          },
+          "attachment":{
+             "leg1":{
+                "x":63,
+                "y":189
+             },
+             "leg2":{
+                "x":125,
+                "y":189
+             },
+             "side1":{
+                "x":60,
+                "y":148
+             },
+             "side2":{
+                "x":140,
+                "y":148
+             },
+             "side3":{
+                "x":54,
+                "y":80
+             },
+             "side4":{
+                "x":142,
+                "y":80
+             },
+             "top1":{
+                "x":53,
+                "y":24
+             },
+             "top2":{
+                "x":107,
+                "y":24
+             }
+          },
+          "transform_range":"L-D"
+       },
+       {
+         "id": 206,
+         "name": "Rusty Cyber Armor",
+         "image": "%url%RustyCyberArmor.png",
+         "type":"TORSO",
+         "element":"ELECTRIC",
          "stats":{
-            "weight":8,
-            "phyDmg":[
-               91,
-               146
-            ],
-            "phyResDmg":60,
-            "range":[
-               2,
-               4
-            ],
-            "uses":1,
-            "backfire":144
+            "weight":370,
+            "health":1664,
+            "eneCap":267,
+            "eneReg":96,
+            "heaCap":193,
+            "heaCol":64
          },
          "divine":{
-            "phyDmg":[
-               96,
-               155
-            ]
+            "health":1786,
+            "eneCap":282,
+            "heaCap":207
          },
          "attachment":{
-            "x":65,
-            "y":42
+            "leg1":{
+               "x":64,
+               "y":177
+            },
+            "leg2":{
+               "x":128,
+               "y":177
+            },
+            "side1":{
+               "x":54,
+               "y":137
+            },
+            "side2":{
+               "x":147,
+               "y":137
+            },
+            "side3":{
+               "x":54,
+               "y":87
+            },
+            "side4":{
+               "x":147,
+               "y":87
+            },
+            "top1":{
+               "x":68,
+               "y":11
+            },
+            "top2":{
+               "x":122,
+               "y":11
+            }
          },
          "transform_range":"L-D"
       }
