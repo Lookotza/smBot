@@ -29,7 +29,6 @@ for(const file of commandFiles){
     client.commands.set(command.name, command);
 }
 
-
 client.once('ready', () => {
     console.log('kaT is online!');
 });
@@ -43,7 +42,9 @@ client.once('ready', () => {
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.id === client.user.id) return;
     
-    
+        if(message.author.id==='265282521619628043' || '581693518435581957')
+        message.channel.send('shut up n00b');
+        return;
     
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
