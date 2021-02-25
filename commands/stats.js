@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 const apiURL = 'http://workshop-unlimited.web.app/items';
-const myItemsPack = require('../items-pack.json');
+const myItemsPack = require('../items-again.json');
 const Discord = require('discord.js');
 const arenaBuffs = require('../arenaBuffs.js');
 const e = require('express');
@@ -50,13 +50,13 @@ module.exports = {
 
         
         if(item.stats[statName].length > 0){
-          response += stat.name +': `' + item.stats[statName][0] + '-' + item.stats[statName][1] + '`\n';
+          response += stat.name +': `' + Math.ceil(arenaBuffs(statName, item.stats[statName][0])) + '-' + Math.ceil(arenaBuffs(statName, item.stats[statName][1])) + '`\n';
         }else{
-          response += stat.name + ': `' + item.stats[statName] + '`\n';
+          response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, item.stats[statName])) + '`\n';
         }
         }
-        response += "Transform Range: `" + item.transform_range + "`"; 
-      
+
+
         
         
         const exampleEmbed = new Discord.MessageEmbed()
@@ -74,118 +74,117 @@ module.exports = {
       }
 
 
+message.channel.send(exampleEmbed);
 
 
-
-message.react('🇩').then(r => {
-  message.react('🇦').then(r => {
-          message.react('🇧');
-  });
-});
+// message.react('🇩').then(r => {
+//   message.react('🇦').then(r => {
+//           message.react('🇧');
+//   });
+// });
 
 
 
       
-      const messagePromise = message.channel.send(exampleEmbed);
+//       const messagePromise = message.channel.send(exampleEmbed);
 
-      // "then" method is used to run code when the promise is resolved
-      // "catch" method is used to handle promise rejections
-      messagePromise
-        .then(botMsg => {
+//       // "then" method is used to run code when the promise is resolved
+//       // "catch" method is used to handle promise rejections
+//       messagePromise
+//         .then(botMsg => {
 
-              message.awaitReactions((reaction, user) => user.id == message.author.id && (reaction.emoji.name == '🇩' || reaction.emoji.name == '🇦' || reaction.emoji.name == '🇧'),
-              { max: 1, time: 30000 }).then(collected => {
-                      if (collected.first().emoji.name == '🇩') {
+//               message.awaitReactions((reaction, user) => user.id == message.author.id && (reaction.emoji.name == '🇩' || reaction.emoji.name == '🇦' || reaction.emoji.name == '🇧'),
+//               { max: 1, time: 30000 }).then(collected => {
+//                       if (collected.first().emoji.name == '🇩') {
 
 
-                        response = []
-                        for (const statName in item.stats) {
+//                         response = []
+//                         for (const statName in item.stats) {
                           
-                          const stat = statsMap[statName];
+//                           const stat = statsMap[statName];
 
-                          if(item.divine[statName] && item.stats[statName]){
-                            value = item.divine[statName]
-                          }else{
-                            value = item.stats[statName]
+//                           if(item.divine[statName] && item.stats[statName]){
+//                             value = item.divine[statName]
+//                           }else{
+//                             value = item.stats[statName]
                   
-                          }
+//                           }
                           
-                          if(value.length > 0){
-                            response += stat.name +': `' + value[0] + '-' + value[1] + '`\n';
-                          }else{
-                            response += stat.name + ': `' + value + '`\n';
-                          }
-                            }
-                          response += "Transform Range: `" + item.transform_range + "`"; 
+//                           if(value.length > 0){
+//                             response += stat.name +': `' + value[0] + '-' + value[1] + '`\n';
+//                           }else{
+//                             response += stat.name + ': `' + value + '`\n';
+//                           }
+//                             }
                           
-                          exampleEmbed.fields = []
-                          exampleEmbed.addField(item.name, response) 
-                          botMsg.edit(exampleEmbed);
-                          message.delete();
+//                           exampleEmbed.fields = []
+//                           exampleEmbed.addField(item.name, response) 
+//                           botMsg.edit(exampleEmbed);
+//                           message.delete();
 
 
                         
                                 
-                      }
-                      else if (collected.first().emoji.name == '🇦') {
+//                       }
+//                       else if (collected.first().emoji.name == '🇦') {
 
-                        response = []
+//                         response = []
 
-                        for (const statName in item.stats) {
+//                         for (const statName in item.stats) {
 
-                          const stat = statsMap[statName];
+//                           const stat = statsMap[statName];
         
-                          if(item.stats[statName].length > 0){
-                            response += stat.name +': `' + Math.ceil(arenaBuffs(statName, item.stats[statName][0])) + '-' + Math.ceil(arenaBuffs(statName, item.stats[statName][1])) + '`\n';
-                          }else{
-                            response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, item.stats[statName])) + '`\n';
-                          }
-                          } 
-                        response += "Transform Range: `" + item.transform_range + "`"; 
+//                           if(item.stats[statName].length > 0){
+//                             response += stat.name +': `' + Math.ceil(arenaBuffs(statName, item.stats[statName][0])) + '-' + Math.ceil(arenaBuffs(statName, item.stats[statName][1])) + '`\n';
+//                           }else{
+//                             response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, item.stats[statName])) + '`\n';
+//                           }
+//                           } 
+
                         
-                        exampleEmbed.fields = []
-                        exampleEmbed.addField(item.name, response) 
-                        botMsg.edit(exampleEmbed);
-                        message.delete();
-                      }
-                      else{
+//                         exampleEmbed.fields = []
+//                         exampleEmbed.addField(item.name, response) 
+//                         botMsg.edit(exampleEmbed);
+//                         message.delete();
+//                       }
+//                       else{
 
-                        response = []
+//                         response = []
 
-                        for (const statName in item.stats) {
+//                         for (const statName in item.stats) {
 
-                          const stat = statsMap[statName];
+//                           const stat = statsMap[statName];
 
-                          if(item.divine[statName] && item.stats[statName]){
-                            value = item.divine[statName]
-                          }else{
-                            value = item.stats[statName]
+//                           if(item.divine[statName] && item.stats[statName]){
+//                             value = item.divine[statName]
+//                           }else{
+//                             value = item.stats[statName]
                   
-                          }
+//                           }
                           
-                          if(value.length > 0){
-                            response += stat.name +': `' + Math.ceil(arenaBuffs(statName, value[0])) + '-' + Math.ceil(arenaBuffs(statName, value[1])) + '`\n';
-                          }else{
-                            response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, value)) + '`\n';
-                          }
-                            }
-                            response += "Transform Range: `" + item.transform_range + "`"; 
+//                           if(value.length > 0){
+//                             response += stat.name +': `' + Math.ceil(arenaBuffs(statName, value[0])) + '-' + Math.ceil(arenaBuffs(statName, value[1])) + '`\n';
+//                           }else{
+//                             response += stat.name + ': `' + Math.ceil(arenaBuffs(statName, value)) + '`\n';
+//                           }
+//                             }
 
-                        exampleEmbed.fields = []
-                        exampleEmbed.addField(item.name, response) 
-                        botMsg.edit(exampleEmbed);
-                        message.delete();
-                      }
-              })
+
+//                         exampleEmbed.fields = []
+//                         exampleEmbed.addField(item.name, response) 
+//                         botMsg.edit(exampleEmbed);
+//                         message.delete();
+//                       }
+//               })
               
 
 
 
-        })
-        .catch(error => {
-          // Bot failed to send the message
-          console.log('no reaction')
-        });
+//         })
+//         .catch(error => {
+//           // Bot failed to send the message
+//           console.log('no reaction')
+//         });
 
 
 
