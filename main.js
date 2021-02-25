@@ -42,14 +42,14 @@ client.once('ready', () => {
 client.on('message', message =>{
     if(!message.content.startsWith(prefix) || message.author.id === client.user.id) return;
     
-        if(message.author.id==='265282521619628043'){ 
-        message.channel.send('shut up n00b');
-        return;
-        }
-        if(message.author.id==='581693518435581957'){ 
-            message.channel.send('shut up n00b');
-            return;
-            }
+        // if(message.author.id==='265282521619628043'){ 
+        // message.channel.send('shut up n00b');
+        // return;
+        // }
+        // if(message.author.id==='581693518435581957'){ 
+        //     message.channel.send('shut up n00b');
+        //     return;
+        //     }
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
