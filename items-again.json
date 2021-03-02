@@ -62,7 +62,7 @@
       {
         "id": 2,
         "name": "Archimonde",
-        "image": "%url%Archimonde.svg",
+        "image": "%url%Archimonde.png",
         "type": "TORSO",
         "element": "PHYSICAL",
         "stats": {
@@ -115,7 +115,7 @@
       {
         "id": 3,
         "name": "Avenger",
-        "image": "%url%Avenger.svg",
+        "image": "%url%Avenger.png",
         "type": "TORSO",
         "element": "PHYSICAL",
         "stats": {
@@ -354,7 +354,7 @@
       {
         "id": 8,
         "name": "Rolling Beasts",
-        "image": "%url%RollingBeasts.svg",
+        "image": "%url%RollingBeasts.png",
         "type": "LEGS",
         "element": "PHYSICAL",
         "stats": {
@@ -381,7 +381,7 @@
       {
         "id": 9,
         "name": "Grave Diggers",
-        "image": "%url%GraveDiggers.svg",
+        "image": "%url%GraveDiggers.png",
         "type": "LEGS",
         "element": "PHYSICAL",
         "stats": {
@@ -400,7 +400,7 @@
       {
         "id": 10,
         "name": "The Claw",
-        "image": "%url%TheClaw.svg",
+        "image": "%url%TheClaw.png",
         "type": "LEGS",
         "element": "PHYSICAL",
         "stats": {
@@ -773,7 +773,7 @@
       {
         "id": 24,
         "name": "Ejection Blast",
-        "image": "%url%EjectionBlast.svg",
+        "image": "%url%EjectionBlast.png",
         "type": "SIDE_WEAPON",
         "element": "PHYSICAL",
         "stats": {
@@ -802,7 +802,7 @@
       {
         "id": 25,
         "name": "Sacrifice Cannon",
-        "image": "%url%SacrificeCannon.svg",
+        "image": "%url%SacrificeCannon.png",
         "type": "SIDE_WEAPON",
         "element": "PHYSICAL",
         "stats": {
@@ -831,7 +831,7 @@
       {
         "id": 26,
         "name": "Perimeter Protector",
-        "image": "%url%PerimeterProtector.svg",
+        "image": "%url%PerimeterProtector.png",
         "type": "SIDE_WEAPON",
         "element": "PHYSICAL",
         "stats": {
@@ -858,7 +858,7 @@
       {
         "id": 27,
         "name": "Dark Eagle",
-        "image": "%url%DarkEagle.svg",
+        "image": "%url%DarkEagle.png",
         "type": "SIDE_WEAPON",
         "element": "PHYSICAL",
         "stats": {
@@ -993,7 +993,7 @@
       {
         "id": 32,
         "name": "Mighty Cannon",
-        "image": "%url%MightyCannon.svg",
+        "image": "%url%MightyCannon.png",
         "type": "TOP_WEAPON",
         "element": "PHYSICAL",
         "stats": {
@@ -1045,7 +1045,7 @@
       {
         "id": 34,
         "name": "Frantic Brute",
-        "image": "%url%FranticBrute.svg",
+        "image": "%url%FranticBrute.png",
         "type": "TOP_WEAPON",
         "element": "PHYSICAL",
         "stats": {
@@ -1094,7 +1094,7 @@
       {
         "id": 37,
         "name": "Void",
-        "image": "%url%Void.svg",
+        "image": "%url%Void.png",
         "type": "DRONE",
         "element": "PHYSICAL",
         "stats": {
@@ -1112,7 +1112,7 @@
       {
         "id": 38,
         "name": "HurlBat",
-        "image": "%url%HurlBat.svg",
+        "image": "%url%HurlBat.png",
         "type": "DRONE",
         "element": "PHYSICAL",
         "stats": {
@@ -1131,7 +1131,7 @@
       {
         "id": 39,
         "name": "Greedy",
-        "image": "%url%Greedy.svg",
+        "image": "%url%Greedy.png",
         "type": "DRONE",
         "element": "PHYSICAL",
         "stats": {
@@ -1149,7 +1149,7 @@
       {
         "id": 40,
         "name": "DustMaker",
-        "image": "%url%DustMaker.svg",
+        "image": "%url%DustMaker.png",
         "type": "DRONE",
         "element": "PHYSICAL",
         "stats": {
@@ -1168,7 +1168,7 @@
       {
         "id": 41,
         "name": "Backstabber",
-        "image": "%url%Backstabber.svg",
+        "image": "%url%Backstabber.png",
         "type": "DRONE",
         "element": "PHYSICAL",
         "stats": {
@@ -1393,7 +1393,7 @@
       {
         "id": 53,
         "name": "Brutality",
-        "image": "%url%Brutality.svg",
+        "image": "%url%Brutality.png",
         "type": "TORSO",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1446,7 +1446,7 @@
       {
         "id": 54,
         "name": "Windigo",
-        "image": "%url%Windigo.svg",
+        "image": "%url%Windigo.png",
         "type": "TORSO",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1499,7 +1499,7 @@
       {
         "id": 55,
         "name": "Zarkares",
-        "image": "%url%Zarkares.svg",
+        "image": "%url%Zarkares.png",
         "type": "TORSO",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1552,7 +1552,7 @@
       {
         "id": 56,
         "name": "Molten Platinum Vest",
-        "image": "%url%MoltenPlatinumVest.svg",
+        "image": "%url%MoltenPlatinumVest.png",
         "type": "TORSO",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1605,7 +1605,7 @@
       {
         "id": 57,
         "name": "Sabretooth",
-        "image": "%url%Sabretooth.svg",
+        "image": "%url%Sabretooth.png",
         "type": "TORSO",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1658,7 +1658,7 @@
       {
         "id": 58,
         "name": "Fractured Heat Armor",
-        "image": "%url%FracturedHeatArmor.svg",
+        "image": "%url%FracturedHeatArmor.png",
         "width": 210,
         "height": 197,
         "type": "TORSO",
@@ -1765,7 +1765,7 @@
       {
         "id": 60,
         "name": "Scorching Feet",
-        "image": "%url%ScorchingFeet.svg",
+        "image": "%url%ScorchingFeet.png",
         "type": "LEGS",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1794,7 +1794,7 @@
       {
         "id": 61,
         "name": "Devouring Paws",
-        "image": "%url%DevouringPaws.svg",
+        "image": "%url%DevouringPaws.png",
         "type": "LEGS",
         "element": "EXPLOSIVE",
         "stats": {
@@ -1823,7 +1823,7 @@
       {
         "id": 62,
         "name": "Dynamite Boots",
-        "image": "%url%DynamiteBoots.svg",
+        "image": "%url%DynamiteBoots.png",
         "type": "LEGS",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2048,7 +2048,7 @@
       {
         "id": 70,
         "name": "Magma Blast",
-        "image": "%url%MagmaBlast.svg",
+        "image": "%url%MagmaBlast.png",
         "type": "SIDE_WEAPON",
         "element": "EXPLOSIVE",
         "attachment": {
@@ -2325,7 +2325,7 @@
       {
         "id": 80,
         "name": "Shadow Wolf",
-        "image": "%url%ShadowWolf.svg",
+        "image": "%url%ShadowWolf.png",
         "type": "SIDE_WEAPON",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2355,7 +2355,7 @@
       {
         "id": 81,
         "name": "Broken Devourer",
-        "image": "%url%BrokenDevourer.svg",
+        "image": "%url%BrokenDevourer.png",
         "type": "SIDE_WEAPON",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2385,7 +2385,7 @@
       {
         "id": 82,
         "name": "Overcooking Oven",
-        "image": "%url%OvercookingOven.svg",
+        "image": "%url%OvercookingOven.png",
         "type": "SIDE_WEAPON",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2526,7 +2526,7 @@
       {
         "id": 87,
         "name": "Desert Snake",
-        "image": "%url%DesertSnake.svg",
+        "image": "%url%DesertSnake.png",
         "type": "TOP_WEAPON",
         "element": "EXPLOSIVE",
         "attachment": {
@@ -2667,7 +2667,7 @@
       {
         "id": 92,
         "name": "Frantic Flame",
-        "image": "%url%FranticFlame.svg",
+        "image": "%url%FranticFlame.png",
         "type": "TOP_WEAPON",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2692,7 +2692,7 @@
       {
         "id": 93,
         "name": "Space Invader",
-        "image": "%url%SpaceInvader.svg",
+        "image": "%url%SpaceInvader.png",
         "type": "TOP_WEAPON",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2721,7 +2721,7 @@
       {
         "id": 94,
         "name": "Clash",
-        "image": "%url%Clash.svg",
+        "image": "%url%Clash.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2739,7 +2739,7 @@
       {
         "id": 95,
         "name": "Nemo",
-        "image": "%url%Nemo.svg",
+        "image": "%url%Nemo.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2757,7 +2757,7 @@
       {
         "id": 96,
         "name": "Swoop",
-        "image": "%url%Swoop.svg",
+        "image": "%url%Swoop.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2773,7 +2773,7 @@
       {
         "id": 97,
         "name": "Murmur",
-        "image": "%url%Murmur.svg",
+        "image": "%url%Murmur.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2788,7 +2788,7 @@
       {
         "id": 98,
         "name": "FlameWave",
-        "image": "%url%FlameWave.svg",
+        "image": "%url%FlameWave.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2806,7 +2806,7 @@
       {
         "id": 99,
         "name": "HeatPoint",
-        "image": "%url%HeatPoint.svg",
+        "image": "%url%HeatPoint.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2825,7 +2825,7 @@
       {
         "id": 100,
         "name": "Fire Fly",
-        "image": "%url%FireFly.svg",
+        "image": "%url%FireFly.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -2847,7 +2847,7 @@
       {
         "id": 101,
         "name": "Flame Spear",
-        "image": "%url%FlameSpear.svg",
+        "image": "%url%FlameSpear.png",
         "type": "DRONE",
         "element": "EXPLOSIVE",
         "stats": {
@@ -3002,7 +3002,7 @@
       {
         "id": 109,
         "name": "Naga",
-        "image": "%url%Naga.svg",
+        "image": "%url%Naga.png",
         "type": "TORSO",
         "element": "ELECTRIC",
         "stats": {
@@ -3055,7 +3055,7 @@
       {
         "id": 110,
         "name": "GrimReaper",
-        "image": "%url%GrimReaper.svg",
+        "image": "%url%GrimReaper.png",
         "type": "TORSO",
         "element": "ELECTRIC",
         "stats": {
@@ -3108,7 +3108,7 @@
       {
         "id": 111,
         "name": "Lightning Platinum Vest",
-        "image": "%url%LightningPlatinumVest.svg",
+        "image": "%url%LightningPlatinumVest.png",
         "type": "TORSO",
         "element": "ELECTRIC",
         "stats": {
@@ -3190,7 +3190,7 @@
       {
         "id": 113,
         "name": "Dynamic Stompers",
-        "image": "%url%DynamicStompers.svg",
+        "image": "%url%DynamicStompers.png",
         "type": "LEGS",
         "element": "ELECTRIC",
         "stats": {
@@ -3219,7 +3219,7 @@
       {
         "id": 114,
         "name": "Sparked Runners",
-        "image": "%url%SparkedRunners.svg",
+        "image": "%url%SparkedRunners.png",
         "type": "LEGS",
         "element": "ELECTRIC",
         "stats": {
@@ -3247,7 +3247,7 @@
       {
         "id": 115,
         "name": "Lightning Supporters",
-        "image": "%url%LightningSupporters.svg",
+        "image": "%url%LightningSupporters.png",
         "type": "LEGS",
         "element": "ELECTRIC",
         "stats": {
@@ -3475,7 +3475,7 @@
       {
         "id": 123,
         "name": "Rusty Energy Armor",
-        "image": "%url%RustyEnergyArmor.svg",
+        "image": "%url%RustyEnergyArmor.png",
         "type": "TORSO",
         "element": "ELECTRIC",
         "stats": {
@@ -3762,7 +3762,7 @@
       {
         "id": 133,
         "name": "Evac Spark",
-        "image": "%url%EvacSpark.svg",
+        "image": "%url%EvacSpark.png",
         "type": "SIDE_WEAPON",
         "element": "ELECTRIC",
         "stats": {
@@ -3824,7 +3824,7 @@
       {
         "id": 135,
         "name": "Piercing Fox",
-        "image": "%url%PiercingFox.svg",
+        "image": "%url%PiercingFox.png",
         "type": "SIDE_WEAPON",
         "element": "ELECTRIC",
         "stats": {
@@ -3854,7 +3854,7 @@
       {
         "id": 136,
         "name": "Unstable Power Cell",
-        "image": "%url%UnstablePowerCell.svg",
+        "image": "%url%UnstablePowerCell.png",
         "type": "SIDE_WEAPON",
         "element": "ELECTRIC",
         "stats": {
@@ -3967,7 +3967,7 @@
       {
         "id": 140,
         "name": "SpineFall",
-        "image": "%url%SpineFall.svg",
+        "image": "%url%SpineFall.png",
         "type": "TOP_WEAPON",
         "element": "ELECTRIC",
         "attachment": {
@@ -4050,7 +4050,7 @@
       {
         "id": 143,
         "name": "Frantic Lightning",
-        "image": "%url%FranticLightning.svg",
+        "image": "%url%FranticLightning.png",
         "type": "TOP_WEAPON",
         "element": "ELECTRIC",
         "stats": {
@@ -4072,7 +4072,7 @@
       {
         "id": 144,
         "name": "Party Crasher",
-        "image": "%url%PartyCrasher.svg",
+        "image": "%url%PartyCrasher.png",
         "type": "TOP_WEAPON",
         "element": "ELECTRIC",
         "stats": {
@@ -4101,7 +4101,7 @@
       {
         "id": 145,
         "name": "Snack",
-        "image": "%url%Snack.svg",
+        "image": "%url%Snack.png",
         "type": "DRONE",
         "element": "ELECTRIC",
         "stats": {
@@ -4119,7 +4119,7 @@
       {
         "id": 146,
         "name": "Torment",
-        "image": "%url%Torment.svg",
+        "image": "%url%Torment.png",
         "type": "DRONE",
         "element": "ELECTRIC",
         "stats": {
@@ -4137,7 +4137,7 @@
       {
         "id": 147,
         "name": "WindForge",
-        "image": "%url%WindForge.svg",
+        "image": "%url%WindForge.png",
         "type": "DRONE",
         "element": "ELECTRIC",
         "stats": {
@@ -4155,7 +4155,7 @@
       {
         "id": 148,
         "name": "Anguish",
-        "image": "%url%Anguish.svg",
+        "image": "%url%Anguish.png",
         "type": "DRONE",
         "element": "ELECTRIC",
         "stats": {
@@ -4170,7 +4170,7 @@
       {
         "id": 149,
         "name": "Shockwave",
-        "image": "%url%Shockwave.svg",
+        "image": "%url%Shockwave.png",
         "type": "DRONE",
         "element": "ELECTRIC",
         "stats": {
@@ -4188,7 +4188,7 @@
       {
         "id": 150,
         "name": "Face Shocker",
-        "image": "%url%FaceShocker.svg",
+        "image": "%url%FaceShocker.png",
         "type": "DRONE",
         "element": "ELECTRIC",
         "stats": {
@@ -4738,7 +4738,7 @@
       {
         "id": 36,
         "name": "Cockpit Piercer",
-        "image": "%url%CockpitPiercer.svg",
+        "image": "%url%CockpitPiercer.png",
         "type": "TOP_WEAPON",
         "element": "PHYSICAL",
         "stats": {
