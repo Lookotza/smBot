@@ -5528,8 +5528,8 @@
       },
       {
         "id": 208,
-        "name": "Fractured Basalt Dissolver",
-        "image": "%url%FracturedBasaltDissolver.png",
+        "name": "Damaged Basalt Dissolver",
+        "image": "%url%DamagedBasaltDissolver.png",
         "type": "SIDE_WEAPON",
         "element": "EXPLOSIVE",
         "stats": {
