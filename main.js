@@ -35,21 +35,24 @@ client.once('ready', () => {
 
 
 
-
+let bulliedId = 0;
+let reacc = '🇩';
+let bulliedTimeStart = Date.now();
+let bulliedTime = 0
 
 
 
 client.on('message', message =>{
+
+    if((message.author.id === bulliedId) && ((Date.now() - bulliedTimeStart) < bulliedTime * 60000)){
+        message.react(reacc);
+}
+
+
+
+
     if(!message.content.startsWith(prefix) || message.author.id === client.user.id) return;
-    
-        // if(message.author.id==='265282521619628043'){ 
-        // message.channel.send('shut up n00b');
-        // return;
-        // }
-        // if(message.author.id==='581693518435581957'){ 
-        //     message.channel.send('shut up n00b');
-        //     return;
-        //     }
+
 
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
@@ -63,12 +66,25 @@ client.on('message', message =>{
         client.commands.get('help').execute(message, args);
     }else if(command === 'open'){
         client.commands.get('open').execute(message, args);
+    }else if(command === 'bully'){
+        if(message.author.id === '443894357070970881'){
+        bulliedId = args[0];
+        //^^the target
+        reacc = args[1]
+        //^^what to bulli someone with
+        bulliedTimeStart = Date.now();
+        //^^when the cyberbullying started
+        bulliedTime = args[2];
+        //^^how long it's gona last
+        console.log(bulliedTime)
+        }else{
+            message.channel.send('sir you happend to not be atusiff')
+        }
+
+
     }
 });
 
 const TOKEN = process.env.BOT_TOKEN || require('./token.json');
 client.login(TOKEN);
 
-
-
-client.login(TOKEN);
